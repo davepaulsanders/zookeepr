@@ -57,6 +57,6 @@ app.get("/api/animals", (req, res) => {
   res.json(results);
 });
 
-app.listen(3001, () => {
+app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
